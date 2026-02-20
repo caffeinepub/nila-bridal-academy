@@ -1,0 +1,172 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Transform site to showcase 6 months free ISO-certified beautician course with admin management",
+  "requirements": [
+    {
+      "id": "REQ-14",
+      "summary": "Replace hero section with new heading, course details emphasizing 6 months free ISO-certified training, five checkmarks, and WhatsApp CTA",
+      "acceptanceCriteria": [
+        "Hero section displays new heading 'Transform Your Passion Into a Professional Career'",
+        "Description explains 6 months free course with ISO certification",
+        "Five checkmarks visible: 6 Months Structured Training, 100% Free Course, ISO Certificate After Completion, Practical & Hands-on Sessions, Limited Seats – Apply Now",
+        "WhatsApp application button links to 9384459938"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Replace existing hero section heading with 'Transform Your Passion Into a Professional Career' and update description to emphasize 6 months professional beautician & bridal makeup course completely FREE across Tamil Nadu with mission to empower women. Add five checkmarks (6 Months Structured Training, 100% Free Course, ISO Certificate After Completion, Practical & Hands-on Sessions, Limited Seats – Apply Now). Update call-to-action to WhatsApp application button linking to 9384459938. Reference generated image frontend/public/assets/generated/training-hero.dim_800x600.png for the hero visual."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Create dedicated 'Our Main Mission' section on home page stating academy's primary goals and commitment to practical learning",
+      "acceptanceCriteria": [
+        "Section titled 'Our Main Mission' appears on home page",
+        "Four bullet points listed: high-quality free training, skill development support, ISO certification award, building professional artists",
+        "Closing statement about practical learning, discipline, and professional standards is visible"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add new 'Our Main Mission' section after hero displaying four primary goals: provide high-quality 6 months beauty training at no cost, support skill development and self-employment opportunities, award ISO Certification after successful completion, and build confident professional beauty artists across Tamil Nadu. Include closing statement emphasizing real practical learning, discipline, and professional standards. Reference generated image frontend/public/assets/generated/iso-badge.dim_200x200.png within this section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "summary": "Add 'Course Structure – 6 Months Program' section with month-by-month breakdown and ISO certificate completion note",
+      "acceptanceCriteria": [
+        "Section titled 'Course Structure – 6 Months Program' displays on home page",
+        "Four month ranges shown with respective topics listed",
+        "ISO certificate note appears at the end of the section"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add 'Course Structure – 6 Months Program' section with four month ranges: Month 1-2 (Basic Skin Care, Facial Techniques, Product Knowledge, Hygiene & Safety), Month 3-4 (Bridal Makeup Basics, Hair Styling Techniques, Saree Draping, Client Consultation), Month 5 (Advanced Bridal Makeup, HD Makeup Techniques, Portfolio Practice), Month 6 (Live Model Practice, Professional Grooming, Final Assessment). Include closing note 'ISO Certificate Provided After Successful Completion'. Use generated image frontend/public/assets/generated/course-structure-bg.dim_1920x1080.png as background pattern for the section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "summary": "Create 'Student Application Process' section with enrollment steps, limited seats notice, and contact number",
+      "acceptanceCriteria": [
+        "Section titled 'Apply for 6 Months Free Course' appears on home page",
+        "Four numbered enrollment steps are displayed in sequence",
+        "Notes about limited seats and selection criteria are visible",
+        "Contact number 9384459938 is displayed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add 'Student Application Process' section with heading 'Apply for 6 Months Free Course' displaying four enrollment steps: 1) Fill out the Application Form, 2) Submit Basic Details, 3) Attend Counseling Session, 4) Confirm Admission. Include notes about limited seats available and selection based on eligibility and commitment. Display contact number 9384459938."
+        }
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "summary": "Create new Management Team page showing leadership structure with four roles and photo placeholders",
+      "acceptanceCriteria": [
+        "New page titled 'Our Leadership Team' is created",
+        "Page is accessible from the main navigation menu",
+        "Four team member cards are displayed with titles and responsibilities",
+        "Each card includes a placeholder area for uploading photos"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/ManagementTeam.tsx",
+          "operation": "create",
+          "description": "Create new ManagementTeam page component displaying 'Our Leadership Team' heading and four team member cards: Founder & Director (responsible for academy vision, certification, strategic development), Academic Head (oversees training curriculum and quality standards), Senior Makeup Trainer (handles practical bridal makeup training), Student Coordinator (manages student enrollment and support). Use generated placeholder images: frontend/public/assets/generated/team-founder.dim_400x400.png, frontend/public/assets/generated/team-academic.dim_400x400.png, frontend/public/assets/generated/team-trainer.dim_400x400.png, frontend/public/assets/generated/team-coordinator.dim_400x400.png for respective team member cards. Maintain rose-gold bridal elegance theme."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Register new /management-team route in TanStack Router configuration pointing to ManagementTeam component. Add route alongside existing pages (Home, Terms, Privacy, Refund, Accessibility, Contact)."
+        },
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Add 'Management Team' navigation link to both desktop menu and mobile sheet menu alongside existing links. Link should navigate to /management-team route."
+        }
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "summary": "Create PIN-protected Admin page with internal management features accessible only with PIN 'NILA'",
+      "acceptanceCriteria": [
+        "New Admin page is created with PIN authentication requirement",
+        "Page is protected by PIN 'NILA' and requires correct entry to access",
+        "Page displays warning that it is restricted for internal management use",
+        "Page includes sections for student records, batch details, certification tracking, and management operations"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Admin.tsx",
+          "operation": "create",
+          "description": "Create new Admin page component with PIN authentication requiring exact PIN 'NILA' (hardcoded, not user-changeable). Display PIN entry form on load. After successful authentication, show internal management sections: student records, batch details, certification tracking, and management operations. Include clear warning that page is restricted for internal management use only and not accessible to public users. Maintain rose-gold theme."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Register new /admin route in TanStack Router configuration pointing to Admin component. Route should be registered but not exposed in public navigation."
+        }
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "summary": "Update Terms & Conditions page to include free course policy, ISO certificate issuance, attendance requirements, and no refund policy",
+      "acceptanceCriteria": [
+        "Terms & Conditions page updated with all five specified points",
+        "ISO certification completion requirement is clearly stated",
+        "Attendance and discipline requirements are visible",
+        "Free course status and inapplicable refund policy are mentioned"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/TermsConditions.tsx",
+          "operation": "modify",
+          "description": "Update Terms & Conditions content to include: 6 Months Course is completely free, ISO Certificate is issued after successful completion, attendance and discipline are mandatory, no refund policy is applicable as the course is free, and bridal service bookings require advance confirmation. Integrate these points into existing terms structure."
+        }
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "summary": "Update meta description for SEO to highlight 6 months free beautician course with ISO certification",
+      "acceptanceCriteria": [
+        "HTML meta description tag is updated with the specified text",
+        "Meta description is visible in page source",
+        "Description includes key terms: 6 months free beautician course, ISO certification, Tamil Nadu"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update meta description tag to: 'Nila Bridal Academy offers a 6 months free beautician course with ISO certification and professional bridal makeup services across Tamil Nadu. Apply now.'"
+        }
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "summary": "Update navigation menu to include Management Team link while keeping Admin page hidden from public navigation",
+      "acceptanceCriteria": [
+        "Navigation menu includes Management Team link",
+        "Management Team link appears in both desktop and mobile navigation",
+        "Admin page is not visible in public navigation",
+        "All previously existing navigation links remain functional"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Ensure Management Team link is present in both desktop and mobile navigation menus (already added in REQ-18 file operation). Verify Admin page is not included in public navigation menu. Confirm all existing links (Home, About Us, Services, Free Training, Book Online, Testimonials, Terms & Conditions, Privacy Policy, Refund Policy, Accessibility Statement, Contact) remain functional."
+        }
+      ]
+    }
+  ]
+}

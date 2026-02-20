@@ -1,0 +1,170 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-the-hero-section-heading-with-transform-your-passion-into-a-professional-career-and-update-description-to-emphasize-that-nila-bridal-academy-offers-a-6-months-professional-beautician-bridal-makeup-course-completely-free-across-tamil-nadu-with-mission-to-empower-women-with-industry-ready-beauty-skills-and-provide-iso-certificate-upon-successful-course-completion-including-checkmarks-for-6-months-structured-training-100-free-course-iso-certificate-after-completion-practical-hands-on-sessions-limited-seats-apply-now-with-whatsapp-application-call-to-action-for-9384459938",
+      "featureTitle": "Replace the hero section heading with 'Transform Your Passion Into a Professional Career' and update description to emphasize that Nila Bridal Academy offers a 6 Months Professional Beautician & Bridal Makeup Course completely FREE across Tamil Nadu, with mission to empower women with industry-ready beauty skills and provide ISO Certificate upon successful course completion, including checkmarks for '6 Months Structured Training', '100% Free Course', 'ISO Certificate After Completion', 'Practical & Hands-on Sessions', 'Limited Seats – Apply Now', with WhatsApp application call-to-action for 9384459938",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-dedicated-our-main-mission-section-on-the-home-page-stating-that-nila-bridal-academy-s-primary-goals-are-to-provide-high-quality-6-months-beauty-training-at-no-cost-support-skill-development-and-self-employment-opportunities-award-iso-certification-after-successful-completion-and-build-confident-professional-beauty-artists-across-tamil-nadu-with-emphasis-on-real-practical-learning-discipline-and-professional-standards",
+      "featureTitle": "Create a dedicated 'Our Main Mission' section on the home page stating that Nila Bridal Academy's primary goals are to provide high-quality 6 months beauty training at no cost, support skill development and self-employment opportunities, award ISO Certification after successful completion, and build confident professional beauty artists across Tamil Nadu, with emphasis on real practical learning, discipline, and professional standards",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-course-structure-6-months-program-section-on-the-home-page-displaying-month-by-month-breakdown-month-1-2-basic-skin-care-facial-techniques-product-knowledge-hygiene-safety-month-3-4-bridal-makeup-basics-hair-styling-techniques-saree-draping-client-consultation-month-5-advanced-bridal-makeup-hd-makeup-techniques-portfolio-practice-month-6-live-model-practice-professional-grooming-final-assessment-with-closing-note-iso-certificate-provided-after-successful-completion",
+      "featureTitle": "Add a 'Course Structure – 6 Months Program' section on the home page displaying month-by-month breakdown: Month 1-2 (Basic Skin Care, Facial Techniques, Product Knowledge, Hygiene & Safety), Month 3-4 (Bridal Makeup Basics, Hair Styling Techniques, Saree Draping, Client Consultation), Month 5 (Advanced Bridal Makeup, HD Makeup Techniques, Portfolio Practice), Month 6 (Live Model Practice, Professional Grooming, Final Assessment), with closing note 'ISO Certificate Provided After Successful Completion'",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-student-application-process-section-on-the-home-page-with-heading-apply-for-6-months-free-course-explaining-enrollment-steps-1-fill-out-the-application-form-2-submit-basic-details-3-attend-counseling-session-4-confirm-admission-with-notes-about-limited-seats-available-and-selection-based-on-eligibility-and-commitment-and-contact-number-9384459938",
+      "featureTitle": "Create a 'Student Application Process' section on the home page with heading 'Apply for 6 Months Free Course', explaining enrollment steps: 1) Fill out the Application Form, 2) Submit Basic Details, 3) Attend Counseling Session, 4) Confirm Admission, with notes about limited seats available and selection based on eligibility and commitment, and contact number 9384459938",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-new-management-team-page-accessible-from-navigation-showing-nila-bridal-academy-s-leadership-structure-with-four-roles-founder-director-responsible-for-academy-vision-certification-and-strategic-development-academic-head-oversees-training-curriculum-and-quality-standards-senior-makeup-trainer-handles-practical-bridal-makeup-training-and-student-coordinator-manages-student-enrollment-and-support-with-photo-placeholders-for-each-role",
+      "featureTitle": "Create a new 'Management Team' page accessible from navigation showing Nila Bridal Academy's leadership structure with four roles: Founder & Director (responsible for academy vision, certification, and strategic development), Academic Head (oversees training curriculum and quality standards), Senior Makeup Trainer (handles practical bridal makeup training), and Student Coordinator (manages student enrollment and support), with photo placeholders for each role",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/pages/ManagementTeam.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-pin-protected-admin-page-accessible-only-with-pin-nila-that-contains-internal-management-features-including-student-records-batch-details-certification-tracking-and-internal-management-operations-with-clear-indication-that-this-page-is-restricted-for-internal-management-use-only-and-not-accessible-to-public-users",
+      "featureTitle": "Create a PIN-protected 'Admin' page accessible only with PIN 'NILA' that contains internal management features including student records, batch details, certification tracking, and internal management operations, with clear indication that this page is restricted for internal management use only and not accessible to public users",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/pages/Admin.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-19"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-terms-conditions-page-to-include-that-the-6-months-course-is-completely-free-iso-certificate-is-issued-after-successful-completion-attendance-and-discipline-are-mandatory-no-refund-policy-is-applicable-as-the-course-is-free-and-bridal-service-bookings-require-advance-confirmation",
+      "featureTitle": "Update the Terms & Conditions page to include that the 6 Months Course is completely free, ISO Certificate is issued after successful completion, attendance and discipline are mandatory, no refund policy is applicable as the course is free, and bridal service bookings require advance confirmation",
+      "files": [
+        "frontend/src/pages/TermsConditions.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-20"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-meta-description-for-seo-to-read-nila-bridal-academy-offers-a-6-months-free-beautician-course-with-iso-certification-and-professional-bridal-makeup-services-across-tamil-nadu-apply-now",
+      "featureTitle": "Update the meta description for SEO to read: 'Nila Bridal Academy offers a 6 months free beautician course with ISO certification and professional bridal makeup services across Tamil Nadu. Apply now.'",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-21"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-navigation-menu-to-include-the-new-management-team-page-link-alongside-existing-pages-home-about-us-services-free-training-book-online-testimonials-terms-conditions-privacy-policy-refund-policy-accessibility-statement-contact-but-do-not-expose-the-admin-page-in-public-navigation",
+      "featureTitle": "Update the navigation menu to include the new Management Team page link alongside existing pages (Home, About Us, Services, Free Training, Book Online, Testimonials, Terms & Conditions, Privacy Policy, Refund Policy, Accessibility Statement, Contact), but do not expose the Admin page in public navigation",
+      "files": [
+        "frontend/src/components/Navigation.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

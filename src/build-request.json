@@ -1,0 +1,213 @@
+{
+  "kind": "build_request",
+  "title": "Transform site to showcase 6 months free ISO-certified beautician course with admin management",
+  "projectName": "Nila Bridal Academy",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-14",
+      "text": "Replace the hero section heading with 'Transform Your Passion Into a Professional Career' and update description to emphasize that Nila Bridal Academy offers a 6 Months Professional Beautician & Bridal Makeup Course completely FREE across Tamil Nadu, with mission to empower women with industry-ready beauty skills and provide ISO Certificate upon successful course completion, including checkmarks for '6 Months Structured Training', '100% Free Course', 'ISO Certificate After Completion', 'Practical & Hands-on Sessions', 'Limited Seats – Apply Now', with WhatsApp application call-to-action for 9384459938",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Transform Your Passion Into a Professional Career",
+          "6 Months Professional Beautician & Bridal Makeup Course – Completely FREE across Tamil Nadu",
+          "ISO Certificate upon successful course completion"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays new heading 'Transform Your Passion Into a Professional Career'",
+        "Description explains 6 months free course with ISO certification",
+        "Five checkmarks visible: 6 Months Structured Training, 100% Free Course, ISO Certificate After Completion, Practical & Hands-on Sessions, Limited Seats – Apply Now",
+        "WhatsApp application button links to 9384459938"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Create a dedicated 'Our Main Mission' section on the home page stating that Nila Bridal Academy's primary goals are to provide high-quality 6 months beauty training at no cost, support skill development and self-employment opportunities, award ISO Certification after successful completion, and build confident professional beauty artists across Tamil Nadu, with emphasis on real practical learning, discipline, and professional standards",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "At Nila Bridal Academy, our primary goal is to:",
+          "We focus on real practical learning, discipline, and professional standards"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section titled 'Our Main Mission' appears on home page",
+        "Four bullet points listed: high-quality free training, skill development support, ISO certification award, building professional artists",
+        "Closing statement about practical learning, discipline, and professional standards is visible"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Add a 'Course Structure – 6 Months Program' section on the home page displaying month-by-month breakdown: Month 1-2 (Basic Skin Care, Facial Techniques, Product Knowledge, Hygiene & Safety), Month 3-4 (Bridal Makeup Basics, Hair Styling Techniques, Saree Draping, Client Consultation), Month 5 (Advanced Bridal Makeup, HD Makeup Techniques, Portfolio Practice), Month 6 (Live Model Practice, Professional Grooming, Final Assessment), with closing note 'ISO Certificate Provided After Successful Completion'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "COURSE STRUCTURE – 6 MONTHS PROGRAM",
+          "ISO Certificate Provided After Successful Completion"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section titled 'Course Structure – 6 Months Program' displays on home page",
+        "Four month ranges shown with respective topics listed",
+        "ISO certificate note appears at the end of the section"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Create a 'Student Application Process' section on the home page with heading 'Apply for 6 Months Free Course', explaining enrollment steps: 1) Fill out the Application Form, 2) Submit Basic Details, 3) Attend Counseling Session, 4) Confirm Admission, with notes about limited seats available and selection based on eligibility and commitment, and contact number 9384459938",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "STUDENT APPLICATION PROCESS (LEAD GENERATION SECTION)",
+          "Apply for 6 Months Free Course",
+          "Limited Seats Available",
+          "Selection Based on Eligibility & Commitment"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section titled 'Apply for 6 Months Free Course' appears on home page",
+        "Four numbered enrollment steps are displayed in sequence",
+        "Notes about limited seats and selection criteria are visible",
+        "Contact number 9384459938 is displayed"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Create a new 'Management Team' page accessible from navigation showing Nila Bridal Academy's leadership structure with four roles: Founder & Director (responsible for academy vision, certification, and strategic development), Academic Head (oversees training curriculum and quality standards), Senior Makeup Trainer (handles practical bridal makeup training), and Student Coordinator (manages student enrollment and support), with photo placeholders for each role",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "MANAGEMENT TEAM STRUCTURE (PUBLIC VIEW PAGE)",
+          "Our Leadership Team",
+          "Nila Bridal Academy operates under a structured and professional management system"
+        ]
+      },
+      "acceptanceCriteria": [
+        "New page titled 'Our Leadership Team' is created",
+        "Page is accessible from the main navigation menu",
+        "Four team member cards are displayed with titles and responsibilities",
+        "Each card includes a placeholder area for uploading photos"
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "text": "Create a PIN-protected 'Admin' page accessible only with PIN 'NILA' that contains internal management features including student records, batch details, certification tracking, and internal management operations, with clear indication that this page is restricted for internal management use only and not accessible to public users",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "ADMIN PAGE (PIN PROTECTED)",
+          "Access requires PIN authentication",
+          "PIN: NILA",
+          "This page is not accessible to public users"
+        ]
+      },
+      "acceptanceCriteria": [
+        "New Admin page is created with PIN authentication requirement",
+        "Page is protected by PIN 'NILA' and requires correct entry to access",
+        "Page displays warning that it is restricted for internal management use",
+        "Page includes sections for student records, batch details, certification tracking, and management operations"
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "text": "Update the Terms & Conditions page to include that the 6 Months Course is completely free, ISO Certificate is issued after successful completion, attendance and discipline are mandatory, no refund policy is applicable as the course is free, and bridal service bookings require advance confirmation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "6 Months Course is Completely Free",
+          "ISO Certificate issued after successful completion",
+          "Attendance and discipline mandatory",
+          "No refund policy applicable as course is free"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Terms & Conditions page updated with all five specified points",
+        "ISO certification completion requirement is clearly stated",
+        "Attendance and discipline requirements are visible",
+        "Free course status and inapplicable refund policy are mentioned"
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "text": "Update the meta description for SEO to read: 'Nila Bridal Academy offers a 6 months free beautician course with ISO certification and professional bridal makeup services across Tamil Nadu. Apply now.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Nila Bridal Academy offers a 6 months free beautician course with ISO certification and professional bridal makeup services across Tamil Nadu. Apply now."
+        ]
+      },
+      "acceptanceCriteria": [
+        "HTML meta description tag is updated with the specified text",
+        "Meta description is visible in page source",
+        "Description includes key terms: 6 months free beautician course, ISO certification, Tamil Nadu"
+      ]
+    },
+    {
+      "id": "REQ-22",
+      "text": "Update the navigation menu to include the new Management Team page link alongside existing pages (Home, About Us, Services, Free Training, Book Online, Testimonials, Terms & Conditions, Privacy Policy, Refund Policy, Accessibility Statement, Contact), but do not expose the Admin page in public navigation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation menu includes Management Team link",
+        "Management Team link appears in both desktop and mobile navigation",
+        "Admin page is not visible in public navigation",
+        "All previously existing navigation links remain functional"
+      ]
+    }
+  ],
+  "constraints": [
+    "The Admin page PIN must be exactly 'NILA' and not changeable by public users",
+    "Management Team photos must be placeholders that can be replaced later",
+    "Do not modify existing authentication hooks (useInternetIdentity.ts, useActor.ts)",
+    "Maintain rose-gold bridal elegance design theme throughout new sections"
+  ],
+  "nonGoals": [
+    "Backend data storage for student records or certifications",
+    "Actual form submission or lead capture functionality",
+    "Real authentication system beyond PIN protection",
+    "Photo upload functionality for management team",
+    "Integration with external ISO certification systems"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Elegant rose gold decorative background pattern for course structure section with subtle bridal motifs (course-structure-bg.dim_1920x1080.png)",
+      "Professional beautician training illustration showing makeup application or beauty training scene (training-hero.dim_800x600.png)",
+      "ISO certification badge icon in rose gold and cream colors (iso-badge.dim_200x200.png)",
+      "Leadership team placeholder avatar in rose gold theme for Founder & Director (team-founder.dim_400x400.png)",
+      "Leadership team placeholder avatar in rose gold theme for Academic Head (team-academic.dim_400x400.png)",
+      "Leadership team placeholder avatar in rose gold theme for Senior Makeup Trainer (team-trainer.dim_400x400.png)",
+      "Leadership team placeholder avatar in rose gold theme for Student Coordinator (team-coordinator.dim_400x400.png)"
+    ],
+    "edits": []
+  }
+}

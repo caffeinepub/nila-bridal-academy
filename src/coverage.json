@@ -1,0 +1,145 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-20T07:12:23.818Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 9,
+    "implemented": 9,
+    "items": [
+      {
+        "id": "REQ-14",
+        "summary": "Replace the hero section heading with 'Transform Your Passion Into a Professional Career' and update description to emphasize that Nila Bridal Academy offers a 6 Months Professional Beautician & Bridal Makeup Course completely FREE across Tamil Nadu, with mission to empower women with industry-ready beauty skills and provide ISO Certificate upon successful course completion, including checkmarks for '6 Months Structured Training', '100% Free Course', 'ISO Certificate After Completion', 'Practical & Hands-on Sessions', 'Limited Seats – Apply Now', with WhatsApp application call-to-action for 9384459938",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ]
+      },
+      {
+        "id": "REQ-15",
+        "summary": "Create a dedicated 'Our Main Mission' section on the home page stating that Nila Bridal Academy's primary goals are to provide high-quality 6 months beauty training at no cost, support skill development and self-employment opportunities, award ISO Certification after successful completion, and build confident professional beauty artists across Tamil Nadu, with emphasis on real practical learning, discipline, and professional standards",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ]
+      },
+      {
+        "id": "REQ-16",
+        "summary": "Add a 'Course Structure – 6 Months Program' section on the home page displaying month-by-month breakdown: Month 1-2 (Basic Skin Care, Facial Techniques, Product Knowledge, Hygiene & Safety), Month 3-4 (Bridal Makeup Basics, Hair Styling Techniques, Saree Draping, Client Consultation), Month 5 (Advanced Bridal Makeup, HD Makeup Techniques, Portfolio Practice), Month 6 (Live Model Practice, Professional Grooming, Final Assessment), with closing note 'ISO Certificate Provided After Successful Completion'",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ]
+      },
+      {
+        "id": "REQ-17",
+        "summary": "Create a 'Student Application Process' section on the home page with heading 'Apply for 6 Months Free Course', explaining enrollment steps: 1) Fill out the Application Form, 2) Submit Basic Details, 3) Attend Counseling Session, 4) Confirm Admission, with notes about limited seats available and selection based on eligibility and commitment, and contact number 9384459938",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Home.tsx"
+        ]
+      },
+      {
+        "id": "REQ-18",
+        "summary": "Create a new 'Management Team' page accessible from navigation showing Nila Bridal Academy's leadership structure with four roles: Founder & Director (responsible for academy vision, certification, and strategic development), Academic Head (oversees training curriculum and quality standards), Senior Makeup Trainer (handles practical bridal makeup training), and Student Coordinator (manages student enrollment and support), with photo placeholders for each role",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/ManagementTeam.tsx",
+          "frontend/src/App.tsx",
+          "frontend/src/components/Navigation.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/ManagementTeam.tsx",
+          "frontend/src/App.tsx",
+          "frontend/src/components/Navigation.tsx"
+        ]
+      },
+      {
+        "id": "REQ-19",
+        "summary": "Create a PIN-protected 'Admin' page accessible only with PIN 'NILA' that contains internal management features including student records, batch details, certification tracking, and internal management operations, with clear indication that this page is restricted for internal management use only and not accessible to public users",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Admin.tsx",
+          "frontend/src/App.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Admin.tsx",
+          "frontend/src/App.tsx"
+        ]
+      },
+      {
+        "id": "REQ-20",
+        "summary": "Update the Terms & Conditions page to include that the 6 Months Course is completely free, ISO Certificate is issued after successful completion, attendance and discipline are mandatory, no refund policy is applicable as the course is free, and bridal service bookings require advance confirmation",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/TermsConditions.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/TermsConditions.tsx"
+        ]
+      },
+      {
+        "id": "REQ-21",
+        "summary": "Update the meta description for SEO to read: 'Nila Bridal Academy offers a 6 months free beautician course with ISO certification and professional bridal makeup services across Tamil Nadu. Apply now.'",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/index.html"
+        ]
+      },
+      {
+        "id": "REQ-22",
+        "summary": "Update the navigation menu to include the new Management Team page link alongside existing pages (Home, About Us, Services, Free Training, Book Online, Testimonials, Terms & Conditions, Privacy Policy, Refund Policy, Accessibility Statement, Contact), but do not expose the Admin page in public navigation",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Navigation.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Navigation.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/public/assets/generated/course-structure-bg.dim_1920x1080.png",
+    "frontend/public/assets/generated/iso-badge.dim_200x200.png",
+    "frontend/public/assets/generated/team-academic.dim_400x400.png",
+    "frontend/public/assets/generated/team-coordinator.dim_400x400.png",
+    "frontend/public/assets/generated/team-founder.dim_400x400.png",
+    "frontend/public/assets/generated/team-trainer.dim_400x400.png",
+    "frontend/public/assets/generated/training-hero.dim_800x600.png",
+    "frontend/src/App.tsx",
+    "frontend/src/components/Navigation.tsx",
+    "frontend/src/pages/Admin.tsx",
+    "frontend/src/pages/Home.tsx",
+    "frontend/src/pages/ManagementTeam.tsx",
+    "frontend/src/pages/TermsConditions.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

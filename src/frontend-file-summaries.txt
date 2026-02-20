@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router configuration for all pages including new ManagementTeam and Admin routes, wrapped in Layout component.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component that provides consistent Navigation and Footer across all pages with an Outlet for page content.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with logo, menu links including new Management Team link, mobile sheet menu, and WhatsApp call-to-action button.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand info, quick links, legal links, contact details, social media icons, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/pages/Home.tsx": "Complete home page with updated hero emphasizing 6 months free ISO-certified course, mission section, course structure breakdown, student application process, bridal services, and testimonials.",
+  "frontend/src/pages/TermsConditions.tsx": "Updated terms page including free course policy, ISO certificate requirements, attendance rules, and completion criteria.",
+  "frontend/src/pages/PrivacyPolicy.tsx": "Privacy policy page explaining data collection, usage, and third-party sharing policies in an organized card format.",
+  "frontend/src/pages/RefundPolicy.tsx": "Refund policy page detailing free training, non-refundable payments, and rescheduling options.",
+  "frontend/src/pages/AccessibilityStatement.tsx": "Accessibility statement page showing commitment to inclusive experience with assistance contact information.",
+  "frontend/src/pages/Contact.tsx": "Contact page with phone/WhatsApp buttons, service area information, and booking requirements in card layouts.",
+  "frontend/src/index.css": "Custom CSS with OKLCH color system featuring rose gold, blush pink, and champagne tones for bridal elegance aesthetic in both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with rose-gold color, Playfair Display serif font, and elegant shadow utilities for sophisticated bridal design.",
+  "frontend/src/hooks/useQueries.ts": "Empty file as backend has no data storage; all content is static.",
+  "frontend/src/pages/ManagementTeam.tsx": "New page displaying four leadership team members with photo placeholders, titles, and responsibilities in elegant card layout.",
+  "frontend/src/pages/Admin.tsx": "New PIN-protected admin dashboard requiring 'NILA' authentication, displaying internal management sections for student records, batch details, certification tracking, and operations.",
+  "frontend/index.html": "HTML entry point with updated meta description highlighting 6 months free beautician course with ISO certification across Tamil Nadu."
+}

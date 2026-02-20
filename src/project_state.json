@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Nila Bridal Academy website - 6 months free beautician course with ISO certification, bridal makeup services, and admin management system across Tamil Nadu",
+  "architectural_notes": [
+    "Single-page or multi-page website design with smooth navigation",
+    "Mobile-responsive design for WhatsApp/call booking ease",
+    "SEO-optimized with meta descriptions for Tamil Nadu bridal makeup searches",
+    "Elegant, feminine design reflecting bridal aesthetics",
+    "6-month course curriculum structured by monthly modules",
+    "PIN-protected admin panel (PIN: NILA) for internal management",
+    "Lead generation form for student application process",
+    "ISO certification awarded upon successful completion",
+    "Management team hierarchy: Founder, Academic Head, Trainer, Coordinator"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Elegant rose gold decorative background pattern for course structure section with subtle bridal motifs (course-structure-bg.dim_1920x1080.png)\n- Professional beautician training illustration showing makeup application or beauty training scene (training-hero.dim_800x600.png)\n- ISO certification badge icon in rose gold and cream colors (iso-badge.dim_200x200.png)\n- Leadership team placeholder avatar in rose gold theme for Founder & Director (team-founder.dim_400x400.png)\n- Leadership team placeholder avatar in rose gold theme for Academic Head (team-academic.dim_400x400.png)\n- Leadership team placeholder avatar in rose gold theme for Senior Makeup Trainer (team-trainer.dim_400x400.png)\n- Leadership team placeholder avatar in rose gold theme for Student Coordinator (team-coordinator.dim_400x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-home-page-with-a-hero-section-featuring-the-heading-luxury-bridal-makeup-professional-beauty-training-across-tamil-nadu-description-of-premium-bridal-makeup-services-and-free-training-programs-key-points-available-all-over-tamil-nadu-advance-booking-required-limited-seats-for-free-training-and-contact-information-call-whatsapp-9384459938",
+      "title": "Create a home page with a hero section featuring the heading 'Luxury Bridal Makeup & Professional Beauty Training Across Tamil Nadu', description of premium bridal makeup services and free training programs, key points (Available All Over Tamil Nadu, Advance Booking Required, Limited Seats for Free Training), and contact information (Call/WhatsApp: 9384459938)",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-section-explaining-that-nila-bridal-academy-is-a-trusted-bridal-makeup-and-beauty-training-service-combining-traditional-elegance-with-modern-makeup-artistry-empowering-aspiring-beauty-professionals-through-free-training-programs-with-service-coverage-across-all-of-tamil-nadu",
+      "title": "Create an About Us section explaining that Nila Bridal Academy is a trusted bridal makeup and beauty training service, combining traditional elegance with modern makeup artistry, empowering aspiring beauty professionals through free training programs, with service coverage across all of Tamil Nadu",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-with-two-main-categories-bridal-makeup-services-listing-traditional-bridal-makeup-hd-natural-bridal-makeup-reception-engagement-makeup-party-event-makeup-hair-styling-and-saree-draping-and-a-note-about-using-skin-friendly-products-and-professional-techniques",
+      "title": "Create a Services section with two main categories: 'Bridal Makeup Services' listing Traditional Bridal Makeup, HD & Natural Bridal Makeup, Reception & Engagement Makeup, Party & Event Makeup, Hair Styling, and Saree Draping; and a note about using skin-friendly products and professional techniques",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-free-training-programs-section-listing-beautician-bridal-makeup-courses-including-bridal-makeup-mastery-basic-to-advanced-beautician-training-hair-styling-techniques-saree-draping-techniques-client-consultation-skin-analysis-and-product-knowledge-hygiene-with-checkmarks-for-100-free-training-practical-sessions-beginner-friendly-certificate-on-completion-and-limited-seats-noting-that-registration-is-required",
+      "title": "Create a Free Training Programs section listing Beautician & Bridal Makeup Courses including: Bridal Makeup Mastery, Basic to Advanced Beautician Training, Hair Styling Techniques, Saree Draping Techniques, Client Consultation & Skin Analysis, and Product Knowledge & Hygiene, with checkmarks for 100% Free Training, Practical Sessions, Beginner Friendly, Certificate on Completion, and Limited Seats, noting that registration is required",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-book-online-section-with-heading-book-your-bridal-appointment-today-description-of-professional-bridal-makeup-services-throughout-tamil-nadu-with-easy-booking-via-call-or-whatsapp-phone-number-9384459938-and-note-that-advance-booking-is-recommended",
+      "title": "Create a Book Online section with heading 'Book Your Bridal Appointment Today', description of professional bridal makeup services throughout Tamil Nadu with easy booking via call or WhatsApp, phone number 9384459938, and note that advance booking is recommended",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-testimonials-section-displaying-three-client-reviews-priya-s-praising-elegant-and-natural-bridal-look-keerthana-r-praising-free-beauty-training-experience-and-divya-m-praising-professional-and-punctual-reception-service",
+      "title": "Create a Testimonials section displaying three client reviews: Priya S. praising elegant and natural bridal look, Keerthana R. praising free beauty training experience, and Divya M. praising professional and punctual reception service",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-terms-conditions-page-stating-free-courses-require-prior-registration-bridal-makeup-bookings-require-advance-confirmation-advance-payments-are-non-refundable-travel-charges-may-apply-based-on-location-results-may-vary-based-on-skin-type-and-conditions-with-contact-number-9384459938",
+      "title": "Create a Terms & Conditions page stating: free courses require prior registration, bridal makeup bookings require advance confirmation, advance payments are non-refundable, travel charges may apply based on location, results may vary based on skin type and conditions, with contact number 9384459938",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-privacy-policy-page-stating-that-nila-bridal-academy-respects-privacy-personal-information-collected-during-booking-or-course-registration-is-used-only-for-communication-and-service-coordination-and-information-is-not-sold-or-shared-with-third-parties",
+      "title": "Create a Privacy Policy page stating that Nila Bridal Academy respects privacy, personal information collected during booking or course registration is used only for communication and service coordination, and information is not sold or shared with third parties",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-refund-policy-page-stating-all-training-programs-are-completely-free-bridal-makeup-advance-payments-are-non-refundable-and-rescheduling-is-allowed-based-on-availability",
+      "title": "Create a Refund Policy page stating: all training programs are completely free, bridal makeup advance payments are non-refundable, and rescheduling is allowed based on availability",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-accessibility-statement-page-stating-that-nila-bridal-academy-is-committed-to-providing-an-accessible-and-inclusive-experience-for-all-clients-and-students-with-instructions-to-contact-9384459938-for-assistance",
+      "title": "Create an Accessibility Statement page stating that Nila Bridal Academy is committed to providing an accessible and inclusive experience for all clients and students, with instructions to contact 9384459938 for assistance",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-page-displaying-nila-bridal-academy-name-service-area-as-all-over-tamil-nadu-phone-whatsapp-number-9384459938-and-note-that-advance-booking-is-required",
+      "title": "Create a Contact page displaying: Nila Bridal Academy name, Service Area as 'All Over Tamil Nadu', Phone/WhatsApp number 9384459938, and note that advance booking is required",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-navigation-menu-that-allows-users-to-access-all-sections-home-about-us-services-free-training-book-online-testimonials-terms-conditions-privacy-policy-refund-policy-accessibility-statement-and-contact",
+      "title": "Implement a navigation menu that allows users to access all sections: Home, About Us, Services, Free Training, Book Online, Testimonials, Terms & Conditions, Privacy Policy, Refund Policy, Accessibility Statement, and Contact",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-visual-design-theme-inspired-by-bridal-elegance-with-soft-warm-tones-such-as-rose-gold-blush-pink-cream-or-champagne-elegant-serif-or-script-typography-for-headings-and-sophisticated-layout-that-reflects-the-luxury-bridal-makeup-service-aesthetic-while-maintaining-professional-readability",
+      "title": "Apply a visual design theme inspired by bridal elegance with soft, warm tones (such as rose gold, blush pink, cream, or champagne), elegant serif or script typography for headings, and sophisticated layout that reflects the luxury bridal makeup service aesthetic while maintaining professional readability",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-hero-section-heading-with-transform-your-passion-into-a-professional-career-and-update-description-to-emphasize-that-nila-bridal-academy-offers-a-6-months-professional-beautician-bridal-makeup-course-completely-free-across-tamil-nadu-with-mission-to-empower-women-with-industry-ready-beauty-skills-and-provide-iso-certificate-upon-successful-course-completion-including-checkmarks-for-6-months-structured-training-100-free-course-iso-certificate-after-completion-practical-hands-on-sessions-limited-seats-apply-now-with-whatsapp-application-call-to-action-for-9384459938",
+      "title": "Replace the hero section heading with 'Transform Your Passion Into a Professional Career' and update description to emphasize that Nila Bridal Academy offers a 6 Months Professional Beautician & Bridal Makeup Course completely FREE across Tamil Nadu, with mission to empower women with industry-ready beauty skills and provide ISO Certificate upon successful course completion, including checkmarks for '6 Months Structured Training', '100% Free Course', 'ISO Certificate After Completion', 'Practical & Hands-on Sessions', 'Limited Seats – Apply Now', with WhatsApp application call-to-action for 9384459938",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-dedicated-our-main-mission-section-on-the-home-page-stating-that-nila-bridal-academy-s-primary-goals-are-to-provide-high-quality-6-months-beauty-training-at-no-cost-support-skill-development-and-self-employment-opportunities-award-iso-certification-after-successful-completion-and-build-confident-professional-beauty-artists-across-tamil-nadu-with-emphasis-on-real-practical-learning-discipline-and-professional-standards",
+      "title": "Create a dedicated 'Our Main Mission' section on the home page stating that Nila Bridal Academy's primary goals are to provide high-quality 6 months beauty training at no cost, support skill development and self-employment opportunities, award ISO Certification after successful completion, and build confident professional beauty artists across Tamil Nadu, with emphasis on real practical learning, discipline, and professional standards",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-course-structure-6-months-program-section-on-the-home-page-displaying-month-by-month-breakdown-month-1-2-basic-skin-care-facial-techniques-product-knowledge-hygiene-safety-month-3-4-bridal-makeup-basics-hair-styling-techniques-saree-draping-client-consultation-month-5-advanced-bridal-makeup-hd-makeup-techniques-portfolio-practice-month-6-live-model-practice-professional-grooming-final-assessment-with-closing-note-iso-certificate-provided-after-successful-completion",
+      "title": "Add a 'Course Structure – 6 Months Program' section on the home page displaying month-by-month breakdown: Month 1-2 (Basic Skin Care, Facial Techniques, Product Knowledge, Hygiene & Safety), Month 3-4 (Bridal Makeup Basics, Hair Styling Techniques, Saree Draping, Client Consultation), Month 5 (Advanced Bridal Makeup, HD Makeup Techniques, Portfolio Practice), Month 6 (Live Model Practice, Professional Grooming, Final Assessment), with closing note 'ISO Certificate Provided After Successful Completion'",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-student-application-process-section-on-the-home-page-with-heading-apply-for-6-months-free-course-explaining-enrollment-steps-1-fill-out-the-application-form-2-submit-basic-details-3-attend-counseling-session-4-confirm-admission-with-notes-about-limited-seats-available-and-selection-based-on-eligibility-and-commitment-and-contact-number-9384459938",
+      "title": "Create a 'Student Application Process' section on the home page with heading 'Apply for 6 Months Free Course', explaining enrollment steps: 1) Fill out the Application Form, 2) Submit Basic Details, 3) Attend Counseling Session, 4) Confirm Admission, with notes about limited seats available and selection based on eligibility and commitment, and contact number 9384459938",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-new-management-team-page-accessible-from-navigation-showing-nila-bridal-academy-s-leadership-structure-with-four-roles-founder-director-responsible-for-academy-vision-certification-and-strategic-development-academic-head-oversees-training-curriculum-and-quality-standards-senior-makeup-trainer-handles-practical-bridal-makeup-training-and-student-coordinator-manages-student-enrollment-and-support-with-photo-placeholders-for-each-role",
+      "title": "Create a new 'Management Team' page accessible from navigation showing Nila Bridal Academy's leadership structure with four roles: Founder & Director (responsible for academy vision, certification, and strategic development), Academic Head (oversees training curriculum and quality standards), Senior Makeup Trainer (handles practical bridal makeup training), and Student Coordinator (manages student enrollment and support), with photo placeholders for each role",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-pin-protected-admin-page-accessible-only-with-pin-nila-that-contains-internal-management-features-including-student-records-batch-details-certification-tracking-and-internal-management-operations-with-clear-indication-that-this-page-is-restricted-for-internal-management-use-only-and-not-accessible-to-public-users",
+      "title": "Create a PIN-protected 'Admin' page accessible only with PIN 'NILA' that contains internal management features including student records, batch details, certification tracking, and internal management operations, with clear indication that this page is restricted for internal management use only and not accessible to public users",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-terms-conditions-page-to-include-that-the-6-months-course-is-completely-free-iso-certificate-is-issued-after-successful-completion-attendance-and-discipline-are-mandatory-no-refund-policy-is-applicable-as-the-course-is-free-and-bridal-service-bookings-require-advance-confirmation",
+      "title": "Update the Terms & Conditions page to include that the 6 Months Course is completely free, ISO Certificate is issued after successful completion, attendance and discipline are mandatory, no refund policy is applicable as the course is free, and bridal service bookings require advance confirmation",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-meta-description-for-seo-to-read-nila-bridal-academy-offers-a-6-months-free-beautician-course-with-iso-certification-and-professional-bridal-makeup-services-across-tamil-nadu-apply-now",
+      "title": "Update the meta description for SEO to read: 'Nila Bridal Academy offers a 6 months free beautician course with ISO certification and professional bridal makeup services across Tamil Nadu. Apply now.'",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-navigation-menu-to-include-the-new-management-team-page-link-alongside-existing-pages-home-about-us-services-free-training-book-online-testimonials-terms-conditions-privacy-policy-refund-policy-accessibility-statement-contact-but-do-not-expose-the-admin-page-in-public-navigation",
+      "title": "Update the navigation menu to include the new Management Team page link alongside existing pages (Home, About Us, Services, Free Training, Book Online, Testimonials, Terms & Conditions, Privacy Policy, Refund Policy, Accessibility Statement, Contact), but do not expose the Admin page in public navigation",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with hero section showcasing bridal makeup and training services",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us section describing academy mission and service coverage",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services page listing bridal makeup types and training programs",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Online booking section with contact details (9384459938)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Testimonials section with client reviews",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Terms & Conditions, Privacy Policy, Refund Policy, and Accessibility Statement pages",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Contact page with phone/WhatsApp details and service area info",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Restructure hero section to emphasize 6 Months FREE Beautician Course with ISO Certification",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Create Mission section highlighting free training, skill development, ISO certification, and professional standards",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add detailed 6-month course structure breakdown (Month 1-6 with topics)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Create Student Application Process section with 4-step enrollment flow and lead generation form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Add Management Team page with Founder, Academic Head, Senior Trainer, and Student Coordinator profiles with photo placeholders",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Create PIN-protected Admin page (PIN: NILA) for internal management with student records and certification tracking",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Update Terms to include ISO certification details, attendance requirements, and free course policies",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Nila Bridal Academy",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
